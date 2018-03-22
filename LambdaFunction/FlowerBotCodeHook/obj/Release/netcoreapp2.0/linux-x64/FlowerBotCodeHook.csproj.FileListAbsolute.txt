@@ -1,0 +1,10 @@
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\bin\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.deps.json
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\bin\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.runtimeconfig.json
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\bin\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.runtimeconfig.dev.json
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\bin\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.dll
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\bin\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.pdb
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\obj\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.csproj.CoreCompileInputs.cache
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\obj\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.AssemblyInfoInputs.cache
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\obj\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.AssemblyInfo.cs
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\obj\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.dll
+C:\Tara\AWS\ASP.NET Core\FlowerBotCodeHook\FlowerBotCodeHook\obj\Release\netcoreapp2.0\linux-x64\FlowerBotCodeHook.pdb
