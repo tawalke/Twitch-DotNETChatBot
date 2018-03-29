@@ -1,0 +1,6 @@
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\obj\Debug\netcoreapp2.0\CognitoLexLibrary.csprojResolveAssemblyReference.cache
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\obj\Debug\netcoreapp2.0\CognitoLexLibrary.csproj.CoreCompileInputs.cache
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\obj\Debug\netcoreapp2.0\CognitoLexLibrary.AssemblyInfoInputs.cache
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\obj\Debug\netcoreapp2.0\CognitoLexLibrary.AssemblyInfo.cs
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\bin\Debug\netcoreapp2.0\CognitoLexLibrary.deps.json
+C:\Tara\AWS\TechBytes-Twitch\Twitch-Code\dotnet-Chatbot-Series\CognitoLexLibrary\CognitoLexLibrary\bin\Debug\netcoreapp2.0\CognitoLexLibrary.dll
