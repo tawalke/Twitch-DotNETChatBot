@@ -1,0 +1,11 @@
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\bin\Debug\netcoreapp2.0\LexWebChatbot.deps.json
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\bin\Debug\netcoreapp2.0\LexWebChatbot.runtimeconfig.json
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\bin\Debug\netcoreapp2.0\LexWebChatbot.runtimeconfig.dev.json
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\bin\Debug\netcoreapp2.0\LexWebChatbot.dll
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.csprojResolveAssemblyReference.cache
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.csproj.CoreCompileInputs.cache
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.AssemblyInfoInputs.cache
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.AssemblyInfo.cs
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\bin\Debug\netcoreapp2.0\LexWebChatbot.pdb
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.dll
+C:\Tara\Code\LexWebChatbot\LexWebChatbot\obj\Debug\netcoreapp2.0\LexWebChatbot.pdb
