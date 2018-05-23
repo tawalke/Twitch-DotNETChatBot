@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LexWebChatbot.DataService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,6 +26,7 @@ namespace LexWebChatbot
 
             //Register which IConfiguration instance my AWSOptions bind against
             services.Configure<AWSOptions>(Configuration.GetSection("AWSLexConfiguration"));
+            services.AddScoped<IAWSLexService, AWSLexService>();
             services.AddMvc();
 
             services.AddSession(options =>
@@ -49,11 +51,12 @@ namespace LexWebChatbot
 
             app.UseStaticFiles();
 
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=LexChatBot}/{action=ChatView}/{id?}");
             });
         }
     }

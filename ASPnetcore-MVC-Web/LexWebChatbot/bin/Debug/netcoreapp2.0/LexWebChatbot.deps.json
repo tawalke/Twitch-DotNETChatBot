@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "6353573f5e6fc3d89bf7753e33f4ea1e2e36a4bc"
+    "signature": "cfc145fb0013fe08859ba914d9c71a3d5126ea2d"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "LexWebChatbot/1.0.0": {
         "dependencies": {
+          "AWSSDK.CognitoIdentity": "3.3.2.22",
           "AWSSDK.Lex": "3.3.3.4",
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.NETCore.App": "2.0.0",
@@ -35,7 +36,19 @@
           "LexWebChatbot.dll": {}
         }
       },
-      "AWSSDK.Core/3.3.22": {
+      "AWSSDK.CognitoIdentity/3.3.2.22": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.22.1",
+          "AWSSDK.SecurityToken": "3.3.4.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.CognitoIdentity.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/AWSSDK.CognitoIdentity.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.22.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.4.0",
           "System.Net.Requests": "4.0.11",
@@ -52,13 +65,24 @@
       },
       "AWSSDK.Lex/3.3.3.4": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.22"
+          "AWSSDK.Core": "3.3.22.1"
         },
         "runtime": {
           "lib/netstandard1.3/AWSSDK.Lex.dll": {}
         },
         "compile": {
           "lib/netstandard1.3/AWSSDK.Lex.dll": {}
+        }
+      },
+      "AWSSDK.SecurityToken/3.3.4.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.22.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.SecurityToken.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/AWSSDK.SecurityToken.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4299,12 +4323,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.3.22": {
+    "AWSSDK.CognitoIdentity/3.3.2.22": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aor3fY0UwlJmffaI5BoysNEkDEMdokP/yn2hgJTyjENMO44OFW821g9vgIKrRhcUR2ulCpAI3mtsUUpqmF1Wnw==",
-      "path": "awssdk.core/3.3.22",
-      "hashPath": "awssdk.core.3.3.22.nupkg.sha512"
+      "sha512": "sha512-PMuWk5uSK8GVS6onFrDNdoCr8bn22N/DPF2eZU+RlYfoQUEt5Yhya3gsZaWhHj2DCJZT6WmbAp/U6axV0Ha4yQ==",
+      "path": "awssdk.cognitoidentity/3.3.2.22",
+      "hashPath": "awssdk.cognitoidentity.3.3.2.22.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.3.22.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-66fpTVA70jfbo5LNBIpL9ozZ02wuthDhlUokpef5/eXPIeGy1B3iffqPwiup/0kCNB8stNOTZkPu5YTplFryAw==",
+      "path": "awssdk.core/3.3.22.1",
+      "hashPath": "awssdk.core.3.3.22.1.nupkg.sha512"
     },
     "AWSSDK.Lex/3.3.3.4": {
       "type": "package",
@@ -4312,6 +4343,13 @@
       "sha512": "sha512-9amHcCpttUmeVX6Vz1TZ0rmOjxvP18dGdugaHuF26orbNJBk8mqHiflVi88xarIFRpfaqCRbloOGkIIE2oNLCA==",
       "path": "awssdk.lex/3.3.3.4",
       "hashPath": "awssdk.lex.3.3.3.4.nupkg.sha512"
+    },
+    "AWSSDK.SecurityToken/3.3.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EWSzXWG2dOSfOn16q1n/sDGEMLQ58E409bYZJYlwG6j/FUs4ZdBzJg9KLMI+yO4fKOcpu5XzFKJLZZTMNGMPVw==",
+      "path": "awssdk.securitytoken/3.3.4.3",
+      "hashPath": "awssdk.securitytoken.3.3.4.3.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
