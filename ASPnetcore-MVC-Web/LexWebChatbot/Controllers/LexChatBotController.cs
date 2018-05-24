@@ -66,6 +66,7 @@ namespace LexWebChatbot.Controllers
             { MessageType = BotMessageType.UserMessage, ChatMessage = userMsg });
 
             //Post to page first? 
+            PostPageData(chatBotMessages);
 
             //Strongly type this variable
             var lexResponse = await awsLexSvc.ChatByTextToLex(userSessionID, lexSessionData, userMsg);
@@ -79,6 +80,11 @@ namespace LexWebChatbot.Controllers
 
             return View("ChatView", chatBotMessages);
 
+        }
+
+        public IActionResult PostPageData(List<ChatBotMessage> messages)
+        {
+            return View("ChatView", messages);
         }
     }
 }

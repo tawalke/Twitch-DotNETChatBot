@@ -100,17 +100,17 @@
     <div class="wrapper">
         <div class="parallax filter-gradient blue" data-color="blue">
             <div class="parallax-background">
-                <img class="parallax-background-image" src="~/images/bg3.jpg">
+                <img class="parallax-background-image" src="~/images/bg4.jpg">
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
                         <div class="parallax-image">
-                            <div id="chatheader" style="width: 400px;height: 60px;border: 1px solid gray;background-color: cadetblue;border-radius: 10px">
-                                <img src="~/images/awspowered-sm.png" style="float:left; margin-top:2px;max-height:95%; max-width:20%;border: 1px solid #7b7b7b;border-radius: 50%;" />
-                                <h4 style="margin-top:15px;float:left;padding-left:5px;color:white">Order Flowers</h4>
+                            <div id="chatheader" style="width: 400px;height: 60px;border: 1px solid gray;background-color:cornflowerblue;border-radius: 10px">
+                                <img src="~/images/awslogo2.jpg" style="float:left; margin-top:2px;max-height:95%; max-width:20%;border: 1px solid #7b7b7b;border-radius: 50%;" />
+                                <h4 style="margin-top:15px;float:left;padding-left:5px;color:white">Lex Flower Chatbot</h4>
                             </div>
-                            <div id="conversation" style="width: 400px; height: 450px; border: 2px solid gray;background-color: #ffffff; overflow: scroll;object-position:bottom">
+                            <div id="conversation" style="width: 400px; height: 450px; border: 2px solid gray;background-color: #ecf5fb; overflow: scroll;z-index:10;object-position:bottom">
                                 <dl>
                                     @foreach (var ChatMsg in Model)
                                     {
@@ -135,6 +135,14 @@
                                 htmlAttributes.Add("class", "form-inline");
                             }
 
+                            @using (Html.BeginForm("ProcessChatMessage", "LexChatBot", FormMethod.Post, htmlAttributes))
+                            {
+                                <div class="form-group">
+                                    <input class="form-control" name="userMsg" type="text" placeholder="Enter your chat here" style="float:left;width:400px;z-index:-1;background-color: #ffffff;height:39px" autofocus/>
+                                    <a asp-action="ClearBot" class="btn btn-default" role="button" style="background-color:cornflowerblue;float:right;margin-top:-39px;color:white">Clear</a>
+                                </div>
+                            }
+                        </div>
                     </div>
 
                     <div class="col-md-6 col-md-offset-1">
@@ -171,6 +179,7 @@
                             </table>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
