@@ -32,7 +32,8 @@ namespace LexWebChatbot
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromSeconds(300);
-                options.CookieHttpOnly = true;  //Use new Cookie.HttpOnly
+                //options.CookieHttpOnly = true;  
+                options.Cookie.HttpOnly = true;
             });
         }
 
@@ -49,8 +50,8 @@ namespace LexWebChatbot
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseSession();
             app.UseStaticFiles();
-
 
             app.UseMvc(routes =>
             {
