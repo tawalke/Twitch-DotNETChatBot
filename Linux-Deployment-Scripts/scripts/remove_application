@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf /home/ubuntu/aspnetcoreapp
+rm -rf /home/ubuntu/lexwebchatbotapp

@@ -1,0 +1,15 @@
+[Unit]
+Description=AWS Lex Chatbot Deployed with CodeStar as Web Application
+
+[Service]
+WorkingDirectory=/home/ubuntu/lexwebchatbotapp/
+ExecStart=/usr/bin/dotnet /home/ubuntu/lexwebchatbotapp/LexWebChatbot.dll
+Restart=always
+# Restart service after 10 seconds if dotnet service crashes
+RestartSec=10
+SyslogIdentifier=lexwebchatbotapp
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Production 
+
+[Install]
+WantedBy=multi-user.target
